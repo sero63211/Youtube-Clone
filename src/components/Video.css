@@ -1,0 +1,17 @@
+.Video {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+.video__text {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.Video__iframe {
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
