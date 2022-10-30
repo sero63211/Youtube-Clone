@@ -27,3 +27,4 @@ tailwind.config.js
 
 src/logo.svg
 public/favicon.ico
+/public
