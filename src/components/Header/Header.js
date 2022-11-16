@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { HiMenu } from "react-icons/hi";
 import { BsSearch } from "react-icons/bs";
 import { FaUserAlt } from "react-icons/fa";

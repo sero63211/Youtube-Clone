@@ -3,18 +3,21 @@ import Video from "./Video";
 import "./YoutubeBody.css";
 import Button from "./Button.js";
 function YoutubeBody() {
-  const [components, setComponents] = useState(["Sample Component"]);
+  const [videos, setVideos] = useState(["Sample Video"]);
 
-  function addComponent() {
-    setComponents([...components, "Sample Component"]);
+  function addVideos() {
+    setVideos(["Sample Component"]);
   }
 
   return (
     <div className="MainContent">
-      <Button onClick={addComponent} text="Add Video" />
-      {components.map(() => (
-        <Video />
-      ))}
+      <Button onClick={addVideos} text="Generate Video" />
+      <div className="center-video">
+        {" "}
+        {videos.map((item, i) => (
+          <Video text={item} key={i} />
+        ))}
+      </div>
     </div>
   );
 }
